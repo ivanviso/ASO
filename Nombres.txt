@@ -1,0 +1,5 @@
+juan,23
+pepe,63
+maria,102
+alejando,32
+jose,16

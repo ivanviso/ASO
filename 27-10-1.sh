@@ -6,9 +6,6 @@ ArrayEntradas+=("$entrada")
 done
 for i in "${ArrayEntradas[@]}"
 do
-    if [[ $i != "salir" ]]
-    then
     echo $i
-    fi
 done
 echo "Adios"
