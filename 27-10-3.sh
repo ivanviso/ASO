@@ -8,10 +8,8 @@ break
 fi
 if [[ $entrada =~ ^[+-]?[0-9]+$ ]] 
 then
-
     echo $(head -n $entrada palabras.txt | tail -n+$entrada)
 else
-    palabra=$entrada
     echo $entrada >> palabras.txt
 fi
 done
