@@ -1,12 +1,12 @@
 read numero1
 read numero2
-if [[ "$numero" -gt 8 ]]
+if [[ $numero1 -gt $numero2 ]]
 then 
-echo "el numero es mayor que 8"
-elif [[ "$numero" -lt 8 ]]
+echo "el 1 es mayor que 2"
+elif [[ $numero1 -lt $numero2 ]]
 then
-echo "el numero es menor que 8"
-elif [[ "$numero" = 8 ]]
+echo "el 1 es menor que 2"
+elif [[ $numero1 = $numero2 ]]
 then 
-echo "el numero es igual a 8"
-else 
+echo "iguales"
+fi
